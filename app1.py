@@ -866,7 +866,7 @@ def main():
         # ---- Método de renderização do mapa ----
         metodo_mapa = st.sidebar.radio(
             "Método de Renderização:",
-            ["Folium Direto", "Leafmap"],
+            ["Folium Direto"],
             help="Folium Direto: mais controle, Leafmap: mais simples"
         )
 
